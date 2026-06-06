@@ -1,0 +1,34 @@
+name: Auto-Approve PR (7f-ci-bot)
+
+# Automatically approves PRs opened by jorge-at-sf using the 7f-ci-bot account.
+# APPROVER_PAT is an org-level secret in Seven-Fortunas — no repo-level setup needed.
+# bot585 is a Write collaborator on this repo — approval counts toward branch protection.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to approve'
+        required: true
+
+concurrency:
+  group: auto-approve-${{ github.event.pull_request.number || inputs.pr_number }}
+  cancel-in-progress: true
+
+jobs:
+  auto-approve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Approve PR via 7f-ci-bot
+        run: |
+          PR="${{ github.event.pull_request.number || inputs.pr_number }}"
+          gh pr review "$PR" \
+            --repo "${{ github.repository }}" \
+            --approve \
+            --body "Auto-approved by 7f-ci-bot. Branch protection still gates the merge."
+        env:
+          GH_TOKEN: ${{ secrets.APPROVER_PAT }}
