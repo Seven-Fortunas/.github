@@ -1,29 +1,37 @@
 # Seven Fortunas
 
-We build secure infrastructure for cross-border value transfer - the financial rails that working families, businesses, and AI agents depend on to move value reliably across the world.
+Military-grade, post-quantum native infrastructure for the future of value flows.
 
-Our work sits at the intersection of financial access and national security. The platforms we build are military-grade by design, quantum-resistant from the ground up, and built for the people who need them most: the diaspora worker sending money home, the family receiving it, and the businesses they live alongside.
+One vertically integrated stack: Layer 1 (L1), Layer 2 (L2), wallet and identity, with no vendor seams between chain, custody, wallet and identity. Post-quantum cryptography is built in from genesis, not retrofitted.
 
 ## What we build
 
-**Financial infrastructure** - stablecoin remittance rails across the Americas and Africa, closed-loop retail token economies, and compliance-ready payment platforms for the corridors legacy providers underserve.
+**7F Chain L1.** A sovereign Layer 1 with certificate-gated proof-of-work. Falcon-512 signatures on every transaction and address; ML-DSA-65 on every certificate, handshake and governance operation. Testnet live, with our post-quantum certificate authority (CA) running on it.
 
-**Post-quantum security** - air-gapped custody, Falcon-512 signing (NIST FIPS 206), and enterprise identity infrastructure built to outlast the cryptographic assumptions every other platform is still running on.
+**7F Chain L2.** Post-quantum rollup chains with their own sequencer, independent verifier, data availability and L1 anchoring. Supports issued tokens with governed mint authority, peer-to-peer transfers, an order book and atomic swaps. Testnet live.
 
-**[7fchain](https://github.com/Seven-Fortunas/7fchain)** - a post-quantum Layer 1 blockchain with CPU-mined consensus - any laptop qualifies and a Layer 2 designed for remittances, stable money, and AI-to-AI payments. Built in the Satoshi ethos, carried into the post-quantum era.
+**7F Attest.** Post-quantum identification and authentication for autonomous agents, machines and connected devices, issued by our CA. In engineering.
 
-**Education technology** - offline-first learning platforms with token-based rewards, built for populations with limited connectivity and entry-level hardware.
+**7F Wallet.** Non-custodial wallet for consumer and enterprise use. Production grade, 90% complete.
 
-## How we build
+**Hardware root of trust.** Hardware security modules (HSMs) validated to NIST FIPS 140-2 Level 4 under the Cryptographic Module Validation Program (CMVP).
 
-Everything we ship is built AI-native: our development methodology structures work for both human teams and autonomous AI agents from the first sprint. We publish our infrastructure, tooling, and frameworks here as they mature.
+## Who it serves
+
+**Sovereign.** Post-quantum identity for autonomous systems, and compliant, auditable disbursement for agencies and development finance institutions (DFIs).
+
+**Enterprise.** Cross-border business-to-business (B2B) settlement, as rail-as-a-service inside partner banks or enterprise-direct.
+
+**Consumer.** Cross-border value transfer into closed-loop tokens redeemed at partner merchants.
+
+## Standards
+
+Post-quantum posture aligned with NIST FIPS 203/204 and the Commercial National Security Algorithm Suite (CNSA) 2.0.
 
 ## Connect
 
-- **Website:** [seven-fortunas.github.io](https://seven-fortunas.github.io)
-- **Contact:** contact@sevenfortunas.com
-- **Location:** United States
+- Website: [sevenfortunas.com](https://sevenfortunas.com)
+- Contact: contact@sevenfortunas.com
+- Location: United States
 
----
-
-*Building secure American infrastructure for the people who need it.*
+We publish infrastructure, tooling and frameworks here as they mature.
