@@ -21,6 +21,7 @@ concurrency:
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
+    if: github.actor == 'jorge-at-sf' || github.actor == 'henrySF1'
 
     steps:
       - name: Approve PR via 7f-ci-bot
