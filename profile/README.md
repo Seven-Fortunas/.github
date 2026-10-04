@@ -6,7 +6,7 @@ One vertically integrated stack: Layer 1 (L1), Layer 2 (L2), wallet and identity
 
 ## What we build
 
-**7F Chain L1.** A sovereign Layer 1 with certificate-gated proof-of-work. Falcon-512 signatures on every transaction and address; ML-DSA-65 on every certificate, handshake and governance operation. Testnet live, with our post-quantum certificate authority (CA) running on it.
+**7F Chain L1.** A sovereign Layer 1 with certificate-gated proof-of-work. ML-DSA-65 on every transaction, address, certificate, handshake and governance operation. One algorithm, nothing to migrate later. Testnet live, with our post-quantum certificate authority (CA) running on it.
 
 **7F Chain L2.** Post-quantum rollup chains with their own sequencer, independent verifier, data availability and L1 anchoring. Supports issued tokens with governed mint authority, peer-to-peer transfers, an order book and atomic swaps. Testnet live.
 
@@ -33,7 +33,7 @@ Post-quantum posture aligned with NIST FIPS 203/204 and the Commercial National 
 ## Connect
 
 - Website: [sevenfortunas.com](https://sevenfortunas.com)
-- Contact: contact@sevenfortunas.com
+- Contact: build@sevenfortunas.com
 - Location: United States
 
 We publish infrastructure, tooling and frameworks here as they mature.
