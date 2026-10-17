@@ -1,30 +1,13 @@
 # .github
 
-## Purpose
+Organization-wide files for [Seven Fortunas](https://github.com/Seven-Fortunas).
 
-Organization-wide GitHub configuration, issue/PR templates, and reusable workflows.
-
-## Setup
-
-```bash
-# No setup required - this repo configures the organization
-```
-
-## Usage
-
-This repository contains:
-- Issue templates in `.github/ISSUE_TEMPLATE/`
-- PR template in `.github/PULL_REQUEST_TEMPLATE.md`
-- Reusable workflows in `.github/workflows/`
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines (if public repo).
+| Path | What it does |
+|---|---|
+| [`profile/README.md`](profile/README.md) | The organization profile shown at [github.com/Seven-Fortunas](https://github.com/Seven-Fortunas) |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md) | Default community files, used by any Seven Fortunas repository that doesn't have its own |
+| `.github/workflows/auto-approve-pr.yml` | Approves pull requests to this repository from maintainers |
 
 ## License
 
-See [LICENSE](LICENSE) for license information.
-
----
-
-**Seven Fortunas** - AI-Native Infrastructure for Autonomous Business Operations
+See [LICENSE](LICENSE).
