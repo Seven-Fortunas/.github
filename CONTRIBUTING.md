@@ -60,6 +60,6 @@ Closes #123
 
 ## Questions?
 
-Open an issue for questions or discussion.
+Ask in [7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions). Report security problems privately as described in [SECURITY.md](SECURITY.md), never in a public issue.
 
 Thank you for contributing!
