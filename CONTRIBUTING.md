@@ -1,65 +1,24 @@
 # Contributing to Seven Fortunas
 
-Thank you for your interest in contributing! This document provides guidelines
-for contributing to this project.
+Thanks for helping. Here's where each kind of contribution goes.
 
-## Getting Started
+| I want to… | Do this |
+|---|---|
+| Ask a question | [Q&A in 7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions/categories/q-a) |
+| Suggest an idea or share what I built | [Ideas](https://github.com/Seven-Fortunas/7fchain/discussions/categories/ideas) or [Show and tell](https://github.com/Seven-Fortunas/7fchain/discussions/categories/show-and-tell) |
+| Report a 7fchain program that isn't working | [Open an issue](https://github.com/Seven-Fortunas/7fchain/issues/new/choose) and choose **Something isn't working** |
+| Fix a mistake in a guide or paper | [Open an issue](https://github.com/Seven-Fortunas/7fchain/issues/new/choose) and choose **Problem with the docs** |
+| Report a problem with another repository | Open an issue on that repository |
+| Report a security problem | Privately, as described in [SECURITY.md](SECURITY.md). Never in a public issue or discussion. |
 
-1. Fork the repository
-2. Clone your fork locally
-3. Create a new branch for your feature/fix
-4. Make your changes
-5. Test your changes thoroughly
-6. Commit with clear, descriptive messages
-7. Push to your fork
-8. Open a Pull Request
+## Pull requests
 
-## Commit Message Format
+The 7fchain guides and papers are published from our own source, so a pull request to them would be overwritten by the next release. Open a **Problem with the docs** issue instead, and we'll make the change at the source.
 
-Use conventional commits:
+Pull requests are welcome on our other repositories. Keep each one to a single change and say what it fixes. A maintainer will review it.
 
-```
-<type>(<scope>): <subject>
+## Never post secrets
 
-<body>
+Don't paste a recovery phrase, password, API key or key file anywhere on GitHub, including in issues, discussions and pull requests. Nobody from Seven Fortunas will ever ask you for them.
 
-<footer>
-```
-
-Types: feat, fix, docs, style, refactor, test, chore
-
-Example:
-```
-feat(dashboard): Add AI updates feed
-
-- Implement RSS feed fetching
-- Add caching layer
-- Create responsive UI components
-
-Closes #123
-```
-
-## Code Review Process
-
-1. All submissions require review
-2. Maintainers will provide feedback within 48 hours
-3. Address feedback and update PR
-4. Once approved, maintainers will merge
-
-## Testing
-
-- Write tests for new features
-- Ensure all tests pass before submitting PR
-- Add integration tests where applicable
-
-## Documentation
-
-- Update README.md for new features
-- Add inline comments for complex logic
-- Update API documentation if applicable
-
-## Questions?
-
-Ask in [7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions). Report security problems privately as described in [SECURITY.md](SECURITY.md), never in a public issue.
-
-Thank you for contributing!
+Everyone taking part follows our [Code of Conduct](CODE_OF_CONDUCT.md).
