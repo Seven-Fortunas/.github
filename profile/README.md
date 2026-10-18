@@ -1,10 +1,40 @@
 # Seven Fortunas
 
-Military-grade, post-quantum native infrastructure for the future of value flows.
+**Military-grade, post-quantum native infrastructure for the future of value flows.**
 
 One vertically integrated stack: Layer 1 (L1), Layer 2 (L2), wallet and identity, with no vendor seams between chain, custody, wallet and identity. Post-quantum cryptography is built in from genesis, not retrofitted.
 
-**Start here:** [Become a 7fchain miner](https://github.com/Seven-Fortunas/7fchain/blob/main/docs/become-a-miner.md) · [Download the testnet release](https://github.com/Seven-Fortunas/7fchain/releases/latest) · [Network explorer](https://explore.sevenfortunas.com/) · [Papers](https://github.com/Seven-Fortunas/7fchain/tree/main/papers) · [sevenfortunas.com](https://sevenfortunas.com)
+## Start here
+
+| I want to… | Go to |
+|---|---|
+| ⛏️ Mine 7fchain on the testnet | [Become a miner](https://github.com/Seven-Fortunas/7fchain/blob/main/docs/become-a-miner.md): free certificate, ordinary computer |
+| ⬇️ Download the node | [Latest testnet release](https://github.com/Seven-Fortunas/7fchain/releases/latest) |
+| 🔎 Watch the network | [Network explorer](https://explore.sevenfortunas.com/) |
+| 📖 Understand why and how | [Mission & Design](https://github.com/Seven-Fortunas/7fchain/blob/main/papers/7fchain-mission-and-design.md), then the [papers](https://github.com/Seven-Fortunas/7fchain/tree/main/papers) |
+| 🤝 Evaluate us as an investor or partner | [Executive Summary](https://github.com/Seven-Fortunas/7fchain/blob/main/papers/7fchain-executive-summary.md) and [sevenfortunas.com](https://sevenfortunas.com) |
+| 💬 Ask a question | [Q&A on 7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions/categories/q-a) |
+| 🛡️ Report a vulnerability | [Security policy](https://github.com/Seven-Fortunas/.github/blob/main/SECURITY.md), privately, never in a public issue |
+
+## The stack
+
+```mermaid
+flowchart TB
+    subgraph trust["Trust"]
+        direction LR
+        root["Hardware root of trust<br/>9 Root keys · 6 of 9 to act"] --> ca["Post-quantum certificate authority<br/>ML-DSA-65 X.509"]
+    end
+    subgraph chain["7F Chain"]
+        direction TB
+        l2["L2 rollup chains<br/>7fUSD gas · swaps · issued tokens"] -- "anchored to" --> l1["L1 settlement<br/>post-quantum proof of work"]
+    end
+    attest["7F Attest<br/>identity for agents, machines and devices"]
+    wallet["7F Wallet<br/>non-custodial"]
+
+    ca -- "certifies miners, nodes, sequencers, verifiers" --> chain
+    ca -- "certifies agents and devices" --> attest
+    wallet -- "holds and moves value on" --> chain
+```
 
 ## What we build
 
@@ -36,14 +66,14 @@ Post-quantum posture aligned with NIST FIPS 203 (ML-KEM) and FIPS 204 (ML-DSA) a
 
 | Repository | What's there |
 |---|---|
-| [7fchain](https://github.com/Seven-Fortunas/7fchain) | Testnet releases, miner guides and the papers (mission, executive summary, L1 white paper, tokenomics, constitution) |
-| [7f-signer](https://github.com/Seven-Fortunas/7f-signer) | The page that moves key-ceremony files to and from a 7F SeedSigner |
-| [dashboards](https://github.com/Seven-Fortunas/dashboards) | The [AI Advancements](https://seven-fortunas.github.io/dashboards/ai/) dashboard |
+| [7fchain](https://github.com/Seven-Fortunas/7fchain) | Testnet releases, [miner guides](https://github.com/Seven-Fortunas/7fchain/tree/main/docs), [troubleshooting](https://github.com/Seven-Fortunas/7fchain/blob/main/docs/troubleshooting.md) and the [papers](https://github.com/Seven-Fortunas/7fchain/tree/main/papers) |
+| [7f-signer](https://github.com/Seven-Fortunas/7f-signer) | The [page](https://seven-fortunas.github.io/7f-signer/) that moves key-ceremony files to and from a 7F SeedSigner |
+| [dashboards](https://github.com/Seven-Fortunas/dashboards) | The [AI Advancements](https://seven-fortunas.github.io/dashboards/ai/) dashboard, refreshed every 6 hours |
 
 ## Connect
 
-- Website: [sevenfortunas.com](https://sevenfortunas.com)
-- Questions: [7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions)
-- Contact: build@sevenfortunas.com
-- Security reports: security@sevenfortunas.com (see our [security policy](https://github.com/Seven-Fortunas/.github/blob/main/SECURITY.md))
-- Location: United States
+- 🌐 Website: [sevenfortunas.com](https://sevenfortunas.com)
+- 💬 Questions: [7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions)
+- ✉️ Contact: build@sevenfortunas.com
+- 🛡️ Security reports: security@sevenfortunas.com ([security policy](https://github.com/Seven-Fortunas/.github/blob/main/SECURITY.md))
+- 📍 United States
