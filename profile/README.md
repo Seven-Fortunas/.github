@@ -1,6 +1,6 @@
 # Seven Fortunas
 
-**Military-grade, post-quantum infrastructure for how the world moves value.**
+**The post-quantum, military-grade rail for the world's value.**
 
 One vertically integrated stack: Layer 1 (L1), Layer 2 (L2), wallet and identity, with no vendor seams between chain, custody, wallet and identity. Post-quantum cryptography is built in from genesis, not retrofitted.
 
