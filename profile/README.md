@@ -1,6 +1,6 @@
 # Seven Fortunas
 
-**Military-grade, post-quantum native infrastructure for the future of value flows.**
+**The post-quantum, military-grade rail for the world's value.**
 
 One vertically integrated stack: Layer 1 (L1), Layer 2 (L2), wallet and identity, with no vendor seams between chain, custody, wallet and identity. Post-quantum cryptography is built in from genesis, not retrofitted.
 
@@ -14,7 +14,7 @@ One vertically integrated stack: Layer 1 (L1), Layer 2 (L2), wallet and identity
 | 📖 Understand why and how | [Mission & Design](https://github.com/Seven-Fortunas/7fchain/blob/main/papers/7fchain-mission-and-design.md), then the [papers](https://github.com/Seven-Fortunas/7fchain/tree/main/papers) |
 | 🤝 Evaluate us as an investor or partner | [Executive Summary](https://github.com/Seven-Fortunas/7fchain/blob/main/papers/7fchain-executive-summary.md) and [sevenfortunas.com](https://sevenfortunas.com) |
 | 💬 Ask a question | [Q&A on 7fchain Discussions](https://github.com/Seven-Fortunas/7fchain/discussions/categories/q-a) |
-| 🛡️ Report a vulnerability | [Security policy](https://github.com/Seven-Fortunas/.github/blob/main/SECURITY.md), privately, never in a public issue |
+| 🛡️ Report a vulnerability | [Security policy](https://github.com/Seven-Fortunas/.github/blob/main/SECURITY.md) |
 
 ## The stack
 
@@ -46,9 +46,7 @@ flowchart TB
 
 **7F Wallet.** Non-custodial wallet for consumer and enterprise use.
 
-**Hardware root of trust.** Every certificate on the network traces back to keys held offline on [7F Signers](https://github.com/Seven-Fortunas/7f-signer), air-gapped signing devices, and no single holder can act alone. For miners and users, that means certificates can't be forged and no one party can rewrite the network's rules. Every node checks every certificate against trust anchors built into its software. And the root of trust can't touch your funds: no one, the certificate authority included, can move, freeze or seize coins an honest holder owns.
-
-**Tokenized EdTech platform.** Offline-first learning with token-based rewards, built for low-connectivity regions and entry-level devices.
+**Hardware root of trust.** Every certificate on the network traces back to keys held offline on air-gapped signing devices, and no single holder can act alone. For miners and users, that means certificates can't be forged and no one party can rewrite the network's rules. Every node checks every certificate against trust anchors built into its software. And the root of trust can't touch your funds: no one, the certificate authority included, can move, freeze or seize coins an honest holder owns.
 
 ## Who it serves
 
@@ -56,7 +54,7 @@ flowchart TB
 
 **Enterprise.** Cross-border business-to-business (B2B) settlement, as rail-as-a-service inside partner banks or enterprise-direct.
 
-**Consumer.** Cross-border value transfer into closed-loop tokens redeemed at partner merchants. Tokenized EdTech platform to incentivize students.
+**Consumer.** Cross-border value transfer into closed-loop tokens redeemed at partner merchants.
 
 ## Standards
 
@@ -67,7 +65,7 @@ Post-quantum posture aligned with NIST FIPS 203 (ML-KEM) and FIPS 204 (ML-DSA) a
 | Repository | What's there |
 |---|---|
 | [7fchain](https://github.com/Seven-Fortunas/7fchain) | Testnet releases, [miner guides](https://github.com/Seven-Fortunas/7fchain/tree/main/docs), [troubleshooting](https://github.com/Seven-Fortunas/7fchain/blob/main/docs/troubleshooting.md) and the [papers](https://github.com/Seven-Fortunas/7fchain/tree/main/papers) |
-| [7f-signer](https://github.com/Seven-Fortunas/7f-signer) | The 7F Signer, our post-quantum air-gapped signer, and its [key-ceremony page](https://seven-fortunas.github.io/7f-signer/) |
+| [7f-signer](https://github.com/Seven-Fortunas/7f-signer) | The 7F Signer, our post-quantum, air-gapped signer for the keys that must not move |
 
 ## Connect
 
