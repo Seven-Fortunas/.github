@@ -65,7 +65,7 @@ Post-quantum posture aligned with NIST FIPS 203 (ML-KEM) and FIPS 204 (ML-DSA) a
 | Repository | What's there |
 |---|---|
 | [7fchain](https://github.com/Seven-Fortunas/7fchain) | Testnet releases, [miner guides](https://github.com/Seven-Fortunas/7fchain/tree/main/docs), [troubleshooting](https://github.com/Seven-Fortunas/7fchain/blob/main/docs/troubleshooting.md) and the [papers](https://github.com/Seven-Fortunas/7fchain/tree/main/papers) |
-| [7f-signer](https://github.com/Seven-Fortunas/7f-signer) | The 7F Signer, our post-quantum air-gapped signer, and its [key-ceremony page](https://seven-fortunas.github.io/7f-signer/) |
+| [7f-signer](https://github.com/Seven-Fortunas/7f-signer) | The 7F Signer, our post-quantum, air-gapped signer for the keys that must not move |
 
 ## Connect
 
